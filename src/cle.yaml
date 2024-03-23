@@ -1,0 +1,22 @@
+specVersion: 0.0.2
+apiVersion: 0.0.2
+name: fhe_event
+description: "eth taipei"
+
+dataSources:
+  - kind: ethereum
+    network: sepolia
+    event:
+      - address: "0xa60ecf32309539dd84f27a9563754dca818b815e"
+        events:
+          - "Sync(uint112,uint112)"
+
+dataDestinations:
+  - kind: ethereum
+    network: sepolia
+    address: "0x0000000000000000000000000000000000000001"
+
+mapping:
+  language: wasm/assemblyscript
+  file: ./mapping.ts
+  handler: handleBlocks
