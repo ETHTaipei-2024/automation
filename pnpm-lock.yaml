@@ -8,11 +8,14 @@ dependencies:
   '@ora-io/cle-lib':
     specifier: ^0.1.1
     version: 0.1.1
+  node-seal:
+    specifier: ^5.1.3
+    version: 5.1.3
 
 devDependencies:
   '@ora-io/cle-cli':
-    specifier: ^0.1.4
-    version: 0.1.4(@ora-io/cle-lib@0.1.1)(openapi-types@12.1.3)
+    specifier: 0.1.3
+    version: 0.1.3(@ora-io/cle-lib@0.1.1)(openapi-types@12.1.3)
   assemblyscript:
     specifier: ^0.27.25
     version: 0.27.25
@@ -1300,8 +1303,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@ora-io/cle-cli@0.1.4(@ora-io/cle-lib@0.1.1)(openapi-types@12.1.3):
-    resolution: {integrity: sha512-d047CHAvgSj3sk0sD1DV8UQX0tAyNjTyAkvDKgp+SNLoejqHBS9kRf/Oes1PcqMrBIei6LOxWXWbF+Uito5T8Q==}
+  /@ora-io/cle-cli@0.1.3(@ora-io/cle-lib@0.1.1)(openapi-types@12.1.3):
+    resolution: {integrity: sha512-woVU/2k1TJDg1sBHAlkznC0QuVfQOe9kG1DvHCOa7Fjmj1AZrXTGOIen+1V89ORoAupue71tRr2iL7WbBgNmTA==}
     hasBin: true
     peerDependencies:
       '@ora-io/cle-lib': ^0.1.1
@@ -3847,6 +3850,10 @@ packages:
     dependencies:
       es6-promise: 3.3.1
     dev: true
+
+  /node-seal@5.1.3:
+    resolution: {integrity: sha512-7+yLSGPr3+OOkPITLXCAmupWo01c0d+/7QqP+YDMrUeVQOh2s9J7z2n2hkwP4iL8gm+RmQUC9dVWk/S5cgAIvA==}
+    dev: false
 
   /npm-run-path@4.0.1:
     resolution: {integrity: sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==}

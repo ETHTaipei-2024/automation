@@ -7,14 +7,14 @@ dataSources:
   - kind: ethereum
     network: sepolia
     event:
-      - address: "0xa60ecf32309539dd84f27a9563754dca818b815e"
+      - address: "0x3E18Dc36AD0cB2f9c75d1edf7CA37f68abB8F13C"
         events:
-          - "Sync(uint112,uint112)"
+          - "Requested(uint256,string)"
 
 dataDestinations:
   - kind: ethereum
     network: sepolia
-    address: "0x0000000000000000000000000000000000000001"
+    address: "0x3E18Dc36AD0cB2f9c75d1edf7CA37f68abB8F13C"
 
 mapping:
   language: wasm/assemblyscript
